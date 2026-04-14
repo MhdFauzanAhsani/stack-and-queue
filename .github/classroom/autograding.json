@@ -12,8 +12,8 @@
     },
     {
       "name": "Soal 2 - Mesin Hitung Aneh",
-      "setup": "cp stack.h stack && cp queue.h queue && g++ -std=c++23 -O2 -o tests/prob1_bin prob1.cpp stack.cpp",
-      "run": "bash tests/grade_io.sh ./tests/prob1_bin tests/prob1",
+      "setup": "cp stack.h stack && cp queue.h queue && g++ -std=c++23 -O2 -o  prob1.cpp stack.cpp",
+      "run": "bash tests/grade_io.sh ./prob1 tests/prob1",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -32,8 +32,8 @@
     },
     {
       "name": "Soal 4 - Deretan Angka",
-      "setup": "cp stack.h stack && cp queue.h queue && g++ -std=c++23 -O2 -o tests/prob2_bin prob2.cpp queue.cpp",
-      "run": "bash tests/grade_io.sh ./tests/prob2_bin tests/prob2",
+      "setup": "cp stack.h stack && cp queue.h queue && g++ -std=c++23 -O2 -o  prob2.cpp queue.cpp",
+      "run": "bash tests/grade_io.sh ./prob2 tests/prob2",
       "input": "",
       "output": "",
       "comparison": "included",
