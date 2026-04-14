@@ -41,9 +41,9 @@ jobs:
           test-name: "Soal 2 - Mesin Hitung Aneh"
           setup-command: >
             g++ -std=c++23 -O2
-            -o tests/prob1_bin
+            -o
             prob1.cpp stack.cpp
-          command: "bash tests/grade_io.sh ./tests/prob1_bin tests/prob1"
+          command: "bash tests/grade_io.sh ./prob1 tests/prob1"
           timeout: 15
           max-score: 25
 
@@ -69,9 +69,9 @@ jobs:
           test-name: "Soal 4 - Deretan Angka"
           setup-command: >
             g++ -std=c++23 -O2
-            -o tests/prob2_bin
+            -o
             prob2.cpp queue.cpp
-          command: "bash tests/grade_io.sh ./tests/prob2_bin tests/prob2"
+          command: "bash tests/grade_io.sh ./prob2 tests/prob2"
           timeout: 15
           max-score: 25
 
